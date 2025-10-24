@@ -3,6 +3,10 @@ mybabibuk
 import os, re, asyncio, aiohttp, feedparser
 from aiogram import Bot, Dispatcher, types
 from aiogram.filters import Command
+aiogram==3.1.1
+aiohttp>=3.8
+feedparser==6.0.10
+
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")          # Heroku Config dan o‘qiydi
 USER_ID   = 7269565779                      # Sizning telegram ID
